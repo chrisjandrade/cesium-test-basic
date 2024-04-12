@@ -1,4 +1,21 @@
+.cesium-viewer-wrapper {
+    height: 100%;
+    width: 100%;
+}
+
 .cesium-viewer {
     height: 100%;
     width: 100%;
+}
+
+.cesium-viewer-wrapper .current-time {
+    position: absolute;
+    z-index: 1;
+    background-color :#111;
+    color: #fff;
+    border-radius: 3px;
+    position: absolute;
+    top: 10px;
+    left: 3px;
+    padding: 4px 8px;
 }
